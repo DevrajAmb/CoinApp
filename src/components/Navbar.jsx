@@ -6,7 +6,7 @@ const Navbar = () => {
   const { theme } = useSelector((state) => state.theme);
   const { user } = useSelector((state) => state.auth);
   const { cartItems } = useSelector((state) => state.cart);
-
+//Hi Devraj
   return (
     <nav
       className={
